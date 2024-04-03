@@ -1,2 +1,2 @@
-FROM nginx
-COPY . /usr/share/nginx/html
+FROM ubuntu/apache2
+COPY index.html /var/www/html
