@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gundabhi/pr2
+        image: gundabhi/proj2
         ports:
         - containerPort: 80
